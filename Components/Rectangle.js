@@ -1,15 +1,15 @@
 import { View, Text } from "react-native";
 import styles from "./StyleSheet";
-import Button from "./Button";
-const Rectangle = () => {
+import MoreButton from "./MoreButton";
+const Rectangle = ({ city, description, precProp, daysData }) => {
   return (
     <View style={styles.rect}>
-      <Text style={styles.rectCityText}>Chandigarh</Text>
-      <Text style={styles.rectDescText}>Warming up with no rain expected</Text>
+      <Text style={styles.rectCityText}>{city}</Text>
+      <Text style={styles.rectDescText}>{description}</Text>
       <Text style={styles.rectPrecProbText}>
-        Precipitation Probability: 32.3%
+        Precipitation Probability: {precProp}%
       </Text>
-      <Button />
+      <MoreButton daysData={daysData} />
     </View>
   );
 };

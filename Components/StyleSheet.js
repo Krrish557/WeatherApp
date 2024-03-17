@@ -10,7 +10,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#96DFFF",
     alignItems: "center",
   },
-  eclipse1: {
+  currTeml: {
     position: "absolute",
     display: "flex",
     alignItems: "center",
@@ -21,18 +21,18 @@ const styles = StyleSheet.create({
     backgroundColor: "#43ACD9",
     borderRadius: 107,
   },
-  eclipse1Text: {
+  currTemlText: {
     color: "white",
-    fontSize: 75,
+    fontSize: 65,
     fontWeight: "bold",
     paddingLeft: 35,
   },
-  eclipse1TextTitle: {
+  currTemlTextTitle: {
     color: "white",
     fontSize: 20,
     textAlign: "center",
   },
-  eclipse2: {
+  maxTemp: {
     position: "absolute",
     display: "flex",
     alignItems: "center",
@@ -44,18 +44,18 @@ const styles = StyleSheet.create({
     backgroundColor: "#43ACD9",
     borderRadius: 50,
   },
-  eclipse2Text: {
+  maxTempText: {
     color: "white",
     fontSize: 25,
     fontWeight: "bold",
     paddingLeft: 15,
   },
-  eclipse2TextTitle: {
+  maxTempTextTitle: {
     color: "white",
     fontSize: 10,
     textAlign: "center",
   },
-  eclipse3: {
+  minTemp: {
     position: "absolute",
     display: "flex",
     alignItems: "center",
@@ -67,13 +67,13 @@ const styles = StyleSheet.create({
     backgroundColor: "#43ACD9",
     borderRadius: 50,
   },
-  eclipse3Text: {
+  minTempText: {
     color: "white",
     fontSize: 20,
     fontWeight: "bold",
     paddingLeft: 5,
   },
-  eclipse3TextTitle: {
+  minTempTextTitle: {
     color: "white",
     fontSize: 10,
     textAlign: "center",
