@@ -1,4 +1,4 @@
-import { View, Text } from "react-native";
+import { View, Text, ScrollView } from "react-native";
 import styles from "./StyleSheet";
 import MoreButton from "./MoreButton";
 const Rectangle = ({ city, description, precProp, daysData }) => {

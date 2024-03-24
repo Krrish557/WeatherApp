@@ -10,7 +10,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#96DFFF",
     alignItems: "center",
   },
-  currTeml: {
+  currTemp: {
     position: "absolute",
     display: "flex",
     alignItems: "center",
@@ -21,13 +21,13 @@ const styles = StyleSheet.create({
     backgroundColor: "#43ACD9",
     borderRadius: 107,
   },
-  currTemlText: {
+  currTempText: {
     color: "white",
     fontSize: 65,
     fontWeight: "bold",
     paddingLeft: 35,
   },
-  currTemlTextTitle: {
+  currTempTextTitle: {
     color: "white",
     fontSize: 20,
     textAlign: "center",
@@ -118,6 +118,84 @@ const styles = StyleSheet.create({
     alignSelf: "center",
     alignItems: "center",
     justifyContent: "center",
+  },
+  dayContainer: {
+    display: "flex",
+    alignItems: "center",
+  },
+  modalTemp: {
+    color: "white",
+    fontSize: 50,
+    fontWeight: "bold",
+  },
+  modalWind: {
+    paddingLeft: 3,
+    color: "white",
+    fontSize: 25,
+    fontWeight: "bold",
+    alignSelf: "flex-start",
+  },
+  modalCond: {
+    paddingTop: 15,
+    paddingLeft: 25,
+    paddingRight: 3,
+    color: "white",
+    fontSize: 25,
+    fontWeight: "bold",
+    alignSelf: "flex-end",
+  },
+  modalCondVal: {
+    paddingLeft: 25,
+    paddingBottom: 15,
+    paddingRight: 3,
+    color: "white",
+    fontSize: 20,
+    fontWeight: "bold",
+    alignSelf: "flex-end",
+  },
+  modalHum: {
+    paddingLeft: 3,
+    paddingRight: 25,
+    paddingBottom: 15,
+    color: "white",
+    fontSize: 25,
+    fontWeight: "bold",
+    alignSelf: "flex-start",
+  },
+  buttonContainer: {
+    alignSelf: "flex-start",
+    width: width,
+    display: "flex",
+    flex: 1,
+    alignContent: "flex-end",
+  },
+
+  modalNavButtons: {
+    backgroundColor: "#2196f3",
+    color: "white",
+    height: 40,
+    width: 100,
+  },
+
+  modalBack: {
+    color: "white",
+    fontSize: 50,
+    paddingLeft: 15,
+  },
+  buttonContainer1: {
+    flexDirection: "row",
+    justifyContent: "space-between",
+    alignItems: "center",
+    width: width,
+    paddingHorizontal: 10,
+    marginTop: 10,
+  },
+  modalNavButtons1: {
+    width: 100,
+    height: 30,
+    alignItems: "center",
+    justifyContent: "center",
+    backgroundColor: "#43ACD9",
   },
 });
 export default styles;

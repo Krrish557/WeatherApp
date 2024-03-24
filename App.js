@@ -91,7 +91,7 @@ export default function App() {
         city={weatherData ? capitalizeFirstLetter(weatherData["address"]) : ""}
         description={weatherData ? weatherData["description"] : ""}
         precProp={getPrecProb()}
-        daysDdata={weatherData ? weatherData["days"] : ""}
+        daysData={weatherData ? weatherData["days"] : ""}
       />
 
       <StatusBar style="auto" />

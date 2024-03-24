@@ -4,9 +4,9 @@ import styles from "./StyleSheet";
 
 const CurrTemp = ({ temperature }) => {
   return (
-    <View style={styles.currTeml}>
-      <Text style={styles.currTemlText}>{temperature}°</Text>
-      <Text style={styles.currTemlTextTitle}>Current{"\n"}Temperature</Text>
+    <View style={styles.currTemp}>
+      <Text style={styles.currTempText}>{temperature}°</Text>
+      <Text style={styles.currTempTextTitle}>Current{"\n"}Temperature</Text>
     </View>
   );
 };
